@@ -164,7 +164,7 @@ node(){
         # https://issues.jenkins-ci.org/browse/JENKINS-33510
         cd rpc-openstack
         git submodule update --init
-        TOX_WORK_DIR=/tmp tox -e flake8,ansible-lint,releasenotes,bashate,release-script
+        TOX_WORK_DIR=/tmp tox -e flake8,ansible-lint
       """
     }
   }
