@@ -21,3 +21,8 @@
   scm: git
   src: https://github.com/openstack/openstack-ansible-os_horizon
   version: 08e3924b6e825d1ddbc5b4536abde175734efbfc
+# Remove this with next RPC OSA sha bump
+- name: os_keystone
+  scm: git
+  src: https://github.com/openstack/openstack-ansible-os_keystone
+  version: 0e6df79ed81d1d392bbf0414bc2e96c1c83ca8af
